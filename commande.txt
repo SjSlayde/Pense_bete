@@ -1,12 +1,53 @@
 commande fonctionnel pour linux ubuntu
 necesite php , composer , symfony , mailhog et mariadb
 
+raccourcis clavier:
+
+    pour revenir en arriere :
+        ctrl + Z
+
+    pour revenir en avant :
+        ctrl + Y
+
+    pour aller a la fin d'une ligne : 
+        fin
+
+    pour aller au debut d'une ligne :
+        debut
+
+    pour aller a la fin d'une page : 
+        ctrl + fin
+
+    pour aller au debut d'une page :
+        ctrl + debut
+    
+    pour chercher un text dans une page:
+        ctrl + Z
+
+    pour mettre en commentaire l'element selectionner:
+        ctrl + shift + /
+
+    pour selectionner tout les element ressemblant:
+        ctrl + shift + L
+
+    pour ouvrir un terminal:
+        ctrl + LEFT alt + T
+
+    supprimer une ligne :
+        ctrl + shift + K
+
+    pour coller dans un terminal linux:
+        ctrl + shift + V
+    
+
+
 commande github :
 
+    git init pour initier le projet
     git add .
     git commit
-    git push
-    
+    git push ou lien github si premier commit
+     
 commande lancer mailhog:
 
     mailhog 
@@ -81,7 +122,7 @@ commande pour symfony:
 
         creation d'une entité : 
 
-            php bin/console make:entity {nom de l'entité}
+            php bin/console make:entity <nom de l'entité>
 
         application de l'entité en sql :
 
@@ -93,7 +134,7 @@ commande pour symfony:
 
         creation d'une fixture :
 
-            php bin/console make:fixture {nom de la fixture}
+            php bin/console make:fixture <nom de la fixture>
 
         application d'une fixture :
 
@@ -105,11 +146,11 @@ commande pour symfony:
 
         creation d'un controlleur et une template :
 
-            php bin/console make:controller {nom du controller}
+            php bin/console make:controller <nom du controller>
     
         creation d'un formulaire : 
 
-            php bin/console make:formulaire {nom du formulaire}
+            php bin/console make:formulaire <nom du formulaire>
 
         creation d'une entité user avec le security:
 
