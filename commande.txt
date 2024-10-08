@@ -1,0 +1,144 @@
+commande fonctionnel pour linux ubuntu
+necesite php , composer , symfony , mailhog et mariadb
+
+commande github :
+
+    git add .
+    git commit
+    git push
+    
+commande lancer mailhog:
+
+    mailhog 
+    or 
+    Mailhog
+
+commande php:
+
+    lancer un serve :
+
+        php -s localhost:7777
+
+commande pour symfony:
+
+    commande composer pour lancer le projet :
+
+        Vérification des prérequis:
+
+            symfony check:requirements
+
+        creation d'un projet :
+
+            composer create-project symfony/skeleton:"6.2.*" monProjet
+
+        installation package de type website-skeleton :
+
+            composer require webapp
+
+        installation mailer symfony :
+
+            composer require symfony/mailer
+
+        installation bundle twig pour les template mail : 
+
+            composer require symfony/twig-bundle
+
+        installation bundle twig pour le css dans les mails :
+
+            composer require twig/extra-bundle twig/cssinliner-extra
+
+        installation bundle symfony security :
+
+            composer require symfony/security-bundle
+
+------------------------------------------------------------------------------
+
+    commande server :
+
+        lancer un serve symfony:
+
+            symfony serve 
+
+        installation certificat certutil :
+
+            sudo apt install libnss3-tools
+
+        passer en https au lieu de http:
+
+            symfony server:ca:install
+
+------------------------------------------------------------------------------
+
+    commande base de donnée :
+
+        supression de la database : 
+
+            php bin/console doctrine:database:drop --force
+
+        creation de la database :
+
+            php bin/console doctrine:database:create
+
+        creation d'une entité : 
+
+            php bin/console make:entity {nom de l'entité}
+
+        application de l'entité en sql :
+
+            php bin/console d:s:u --force
+
+        installation package fixture :
+
+            composer require orm-fixtures --dev 
+
+        creation d'une fixture :
+
+            php bin/console make:fixture {nom de la fixture}
+
+        application d'une fixture :
+
+            php bin/console doctrine:fixtures:load
+
+------------------------------------------------------------------------------
+
+    creation d'element symfony:
+
+        creation d'un controlleur et une template :
+
+            php bin/console make:controller {nom du controller}
+    
+        creation d'un formulaire : 
+
+            php bin/console make:formulaire {nom du formulaire}
+
+        creation d'une entité user avec le security:
+
+            php bin/console make:user
+
+        creation d'un formulaire user d'inscription :
+
+            php bin/console make:registration-form
+
+        creation d'un controlleur authentification:
+
+            php bin/console make:auth 
+
+------------------------------------------------------------------------------
+    commande debug : 
+        voir les services symfony :
+
+            php bin/console debug:container
+            php bin/console debug:autowiring
+
+        voir les routes :
+
+            php bin/console debug:router
+
+    Nettoyage du cache de l'application:
+
+        symfony console cache:clear
+        or
+        php bin/console cache:clear
+
+------------------------------------------------------------------------------
+

@@ -1,0 +1,23 @@
+lien utile:
+
+    vscode : https://code.visualstudio.com/
+    mdn : https://developer.mozilla.org/fr/
+    w3school : https://www.w3schools.com/
+    liste portfolio : https://github.com/emmabostian/developer-portfolios
+    bootstrap : https://getbootstrap.com/
+    php : https://www.php.net/
+    mailhog : https://github.com/mailhog/MailHog
+    insatll mailhog : https://gist.github.com/dipenparmar12/4e6cd50d8d1303d5e914742f62659116
+    composer : https://getcomposer.org/
+    mariaDB : https://mariadb.org/
+    symfony : https://symfony.com/
+    twig : https://twig.symfony.com/
+    ncode commande symfony : https://ncode.amorce.org/ressources/Pool/NEW_MS_FULL_STACK/WEB_Symfony_decouverte/commandes.html
+    font awesome : https://fontawesome.com/search?q=cart&o=r&m=free&s=regular
+    google font : https://fonts.google.com/
+    nodejs:https : //nodejs.org/en/download/package-manager
+    api platform : https://api-platform.com/docs/core/security/
+    pixaybay image ilustration : https://pixabay.com/fr/
+    figma : https://www.figma.com/fr/
+    canvas : https://www.canva.com/fr_fr/
+    mint/linux OS : https://www.linuxmint.com/download_lmde.php
